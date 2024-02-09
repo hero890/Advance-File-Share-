@@ -97,12 +97,12 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("Updates", url="https://t.me/VJ_Botz"),
+                InlineKeyboardButton("Updates", url="https://t.me/what_if_season_2_hindi_dubb"),
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ"),
+                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@sastamarvel01?si=EsSwjVVNcuhA8Tci"),
             ]
         )
         btn.append(
@@ -413,11 +413,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'https://youtube.com/@sastamarvel01?si=EsSwjVVNcuhA8Tci')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/what_if_season_2_hindi_dubb')
             ],[
-            InlineKeyboardButton('ℹ️ Owner', url=f't.me/vjbots_bot'),
+            InlineKeyboardButton('ℹ️ Owner', url=f't.me/what_if_season_2_hindi_dubb'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
